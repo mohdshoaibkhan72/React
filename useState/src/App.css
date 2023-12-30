@@ -1,0 +1,18 @@
+*{
+  background-color: aliceblue;
+  margin-top: 30px;
+  
+}
+
+
+
+input{
+  border-style: none;
+  height: 20px;
+  width: 50%;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+
+}
