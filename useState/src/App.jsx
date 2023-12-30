@@ -7,7 +7,14 @@ function App() {
     const newchng = event.target.value;
     setName(newchng);
   };
-
+  //on enter the key evensts
+  /* const onchange = (event) => {
+    if (event.key === 'Enter') {
+     const newchng = event.target.value;
+    setName(newchng);
+    }
+  };
+  */
   return (
     <>
       <div>
@@ -15,7 +22,12 @@ function App() {
           <h1>I am writing here somthings : {name}</h1>
         </center>
         <center>
-          <input type="input" name="username" onInput={onchange} />
+          <input
+            type="input"
+            name="username"
+            onInput={onchange}
+            autofocus="autofocus"
+          />
         </center>
       </div>
     </>
